@@ -4,8 +4,9 @@ public class Zumbi {
     String nome;
 
    public double mostrarVida(){
-       System.out.println("a vida atual do " + nome + "é igual a :" + vida);
+      return vida;
     }
+    
     public boolean podeTransferir(Zumbi zumbiAlvo,  double quantia){if (vida >= quantia){
             return true;
         } else {
@@ -23,3 +24,4 @@ public class Zumbi {
        }
     }
 }
+
