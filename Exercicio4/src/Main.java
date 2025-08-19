@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         Zumbi zumbi1 = new Zumbi();
@@ -12,19 +10,8 @@ public class Main {
         zumbi1.vida = 10;
         zumbi2.vida = 10;
 
+        System.out.println("A vida do " + zumbi1.vida + "é igual a" + zumbi1.mostrarVida());
         zumbi1.transferirVida(zumbi2, 20);
-        zumbi1.vida;
-
-
-
-
-//        zumbi1.transferirVida(zumbi2, 10);
-//       System.out.println( "O Zumbi " + zumbi1.nome + " tem um total de " + zumbi1.mostrarVida() );
-//         System.out.println( "O Zumbi " + zumbi2.nome + " tem um total de " + zumbi2.mostrarVida() );
-
-
-
-
 
     }
 }
